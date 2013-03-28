@@ -1,0 +1,29 @@
+fr:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Block
+            reorder: Réordonner les Blocks
+            reorder_done: Fin de réordonnancement des Blocks
+          records:
+            title: Blocks
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Block. Cliquer sur "Créer un(e) nouve(au/l/lle) Block" pour créer votre premi(er/ère) block.'
+          block:
+            view_live_html: Voir ce(t/tte) block <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) block
+            delete: Supprimer définitivement ce(t/tte) block
+      blocks:
+        show:
+          other: Autres Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

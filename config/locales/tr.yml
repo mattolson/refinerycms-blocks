@@ -1,0 +1,29 @@
+tr:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Yeni Ekle Block
+            reorder: Tekrar sirala Blocks
+            reorder_done: Tekrar siralama tamamlandiBlocks
+          records:
+            title: Blocks
+            sorry_no_results: Uzgunum! Herhangi bir sonuc bulunamadi.
+            no_items_yet: Herhangi bir Blocks yok henuz.  Tikla "Yeni Ekle Block" eklemek senin ilk block.
+          block:
+            view_live_html: Bunu canlu block goruntule <br/><em>(yeni bir pencerede acar)</em>
+            edit: Bunu Duzenle block
+            delete: Bunu Sil block sonsuza dek
+      blocks:
+        show:
+          other: Diger Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

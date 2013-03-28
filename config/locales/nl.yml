@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Nieuwe Block toevoegen
+            reorder: De volgorde van de Blocks wijzigen
+            reorder_done: Klaar met het wijzingen van de van de Block-volgorde
+          records:
+            title: Blocks
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Blocks. Druk op 'Nieuwe Block toevoegen' om de eerste toe te voegen.
+          block:
+            view_live_html: Deze block op de website bekijken <br/><em>(opent in een nieuw venster)</em>
+            edit: Bewerk deze block
+            delete: Deze block definitief verwijderen
+      blocks:
+        show:
+          other: Andere Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

@@ -1,0 +1,11 @@
+<% content_for :body do %>
+  <ul id="blocks">
+    <% @blocks.each do |block| %>
+      <li>
+        <%= link_to block.title, refinery.blocks_block_path(block) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>

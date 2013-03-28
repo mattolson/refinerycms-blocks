@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+#        article: masculino/femenino
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Crear nuevo block
+            reorder: Reordenar blocks
+            reorder_done: Reordenación de blocks completada
+          records:
+            title: Blocks
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay blocks todavía. Pulsa en "Crear nuevo Block" para crear tu primer block.
+          block:
+            view_live_html: Ver este block como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este block
+            delete: Borrar este block para siempre
+      blocks:
+        show:
+          other: Otros blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: 建立新的 Block
+            reorder: 对 Blocks 重新排序
+            reorder_done: 对 Blocks 的重新排序结束
+          records:
+            title: Blocks
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Blocks yet. Click "Add New Block" to add your first block.
+            no_items_yet: 目前没有 Blocks . 点击 "Add New Block" 创建一个block.
+          block:
+            view_live_html: 查看 block 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 block
+            delete: 永久删除 block
+      blocks:
+        show:
+          other: 其他 Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

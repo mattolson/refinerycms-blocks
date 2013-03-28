@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Lag en ny Block
+            reorder: Endre rekkefølgen på Blocks
+            reorder_done: Ferdig å endre rekkefølgen Blocks
+          records:
+            title: Blocks
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Blocks enda. Klikk på "Lag en ny Block" for å legge til din første block.
+          block:
+            view_live_html: Vis hvordan denne block ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne block
+            delete: Fjern denne block permanent
+      blocks:
+        show:
+          other: Andre Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

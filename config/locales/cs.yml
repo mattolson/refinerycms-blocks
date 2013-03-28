@@ -1,0 +1,29 @@
+cs:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Přidat Block
+            reorder: Řadit Blocks
+            reorder_done: Konec řazení Blocks
+          records:
+            title: Blocks
+            sorry_no_results: Litujeme, ale nebyly nalezny žádné výsledky.
+            no_items_yet: Zatím nebyly vytvořeny žádné Blocks. Zvolte "Přidat Block" pro přidání prvního block.
+          block:
+            view_live_html: Zobrazit náhled block<br/><em>(otevře se v novém okně)</em>
+            edit: Upravit block
+            delete: Smazat block
+      blocks:
+        show:
+          other: Další Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content

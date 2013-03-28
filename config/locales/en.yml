@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      blocks:
+        title: Blocks
+    blocks:
+      admin:
+        blocks:
+          actions:
+            create_new: Add New Block
+            reorder: Reorder Blocks
+            reorder_done: Done Reordering Blocks
+          records:
+            title: Blocks
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Blocks yet. Click "Add New Block" to add your first block.
+          block:
+            view_live_html: View this block live <br/><em>(opens in a new window)</em>
+            edit: Edit this block
+            delete: Remove this block forever
+      blocks:
+        show:
+          other: Other Blocks
+  activerecord:
+    attributes:
+      'refinery/blocks/block':
+        title: Title
+        permatitle: Permatitle
+        content: Content
