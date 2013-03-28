@@ -3,10 +3,13 @@
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.name              = 'refinerycms-blocks'
-  s.version           = '1.0'
-  s.description       = 'Ruby on Rails Blocks extension for Refinery CMS'
-  s.date              = '2013-03-27'
+  s.version           = '0.1'
   s.summary           = 'Blocks extension for Refinery CMS'
+  s.description       = 'Ruby on Rails Blocks extension for Refinery CMS'
+  s.authors           = ['Matt Olson']
+  s.email             = 'matt@mattolson.com'
+  s.homepage          = 'https://github.com/mattolson/refinerycms-blocks'
+  s.date              = '2013-03-27'
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
 
