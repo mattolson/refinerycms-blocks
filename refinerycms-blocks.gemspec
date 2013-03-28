@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.authors           = ['Matt Olson']
   s.email             = 'matt@mattolson.com'
   s.homepage          = 'https://github.com/mattolson/refinerycms-blocks'
-  s.date              = '2013-03-27'
+  s.license           = 'MIT'
+  s.date              = Time.now.strftime("%Y-%m-%d")
   s.require_paths     = %w(lib)
   s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
 
