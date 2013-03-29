@@ -14,8 +14,13 @@ module Refinery
           plugin.activity = {
             :class_name => :'refinery/blocks/block'
           }
-          
         end
+
+        # There is a timing bug in refinerycms that causes us to miss
+        # the call to register_decorators! Until that is fixed, do it ourselves.
+        require 'decorators'
+        Decorators.register! root
+        Decorators.load! Rails.application.config.cache_classes
       end
 
       config.after_initialize do
