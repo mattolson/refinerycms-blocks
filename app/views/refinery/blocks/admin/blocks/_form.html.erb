@@ -14,10 +14,8 @@
   </div>
 
   <div class='field'>
-    <%= render '/refinery/admin/wysiwyg',
-                :f => f,
-                :fields => [:content],
-                :object => "blocks/block" -%>
+    <%= f.label :content -%>
+    <%= f.text_area :content, :style => 'width: 100%' -%>
   </div>
 
   <%= render '/refinery/admin/form_actions', :f => f,

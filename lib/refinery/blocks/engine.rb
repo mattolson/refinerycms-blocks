@@ -23,6 +23,10 @@ module Refinery
         Decorators.load! Rails.application.config.cache_classes
       end
 
+      initializer 'find macro module', :after => :load_config_initializers do |app|
+        Refinery::Blocks.configure!
+      end
+
       config.after_initialize do
         Refinery.register_extension(Refinery::Blocks)
       end

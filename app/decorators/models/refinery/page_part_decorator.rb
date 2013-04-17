@@ -13,7 +13,7 @@
       # Retrieve content from database
       blocks = ::Refinery::Blocks::Block.select("permatitle, content").where(:permatitle => block_ids)
       blocks.each do |block|
-        @expanded_body.gsub! /\{\{\s*#{block.permatitle}\s*\}\}/, block.content
+        @expanded_body.gsub! /\{\{\s*#{block.permatitle}\s*\}\}/, block.expanded_content
       end
     end
 

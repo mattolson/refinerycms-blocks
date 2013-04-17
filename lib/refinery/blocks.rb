@@ -5,6 +5,7 @@ module Refinery
 
   module Blocks
     require 'refinery/blocks/engine'
+    require 'refinery/blocks/configuration'
 
     class << self
       attr_writer :root
