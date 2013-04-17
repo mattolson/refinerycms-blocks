@@ -18,7 +18,7 @@ module Refinery
           if method_name && Blocks.macro_module.public_methods.include?(method_name)
             begin
               # Parse arguments and call method
-              args = JSON.parse(macro[2])
+              args = JSON.parse(macro[2], :symbolize_names => true)
               return Blocks.macro_module.send(method_name, args)
             rescue => e
               Rails::logger.error "Exception occurred during execution of #{method_name} in block: #{e}"
